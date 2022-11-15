@@ -16,6 +16,10 @@ struct _factorial_is;
 
 int main( )
 {
+<<<<<<< HEAD
     _factorial_is<Factorial<5>::value> __;
+=======
+    _factorial_is<Factorial<10>::value> __;
+>>>>>>> 512ec4f (Brought some beauty to this grey cruel worlllddd)
     return 0;
 }
