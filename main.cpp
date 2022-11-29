@@ -1,5 +1,6 @@
 #include "iostream"
 
+/// добавте cmake-build-debug в gitignore
 template<int n>
 struct Factorial {
     static const int value = n * Factorial<n - 1>::value;
